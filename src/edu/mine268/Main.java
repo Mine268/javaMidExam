@@ -27,7 +27,7 @@ public class Main {
                 if (enter.equals("/quit")) break;
                 exp = new ExprManager(new StringBuilder(enter));
                 System.out.printf("<%%o%d> %f\n", count, exp.calculate());
-            }catch (Exception ex){
+            } catch (Exception ex) {
                 System.out.printf("<%%o%d> \n", count);
                 System.out.println(ex.toString());
             }

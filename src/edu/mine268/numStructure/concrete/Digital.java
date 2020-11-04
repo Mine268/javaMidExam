@@ -14,5 +14,6 @@ public class Digital extends NumberNode {
     // 根据输入创建这一个数字
     public Digital(double num) {
         this.num = num;
+        this.sealed = true;
     }
 }
