@@ -22,15 +22,16 @@ public class Main {
 
         while (true) {
             try {
-                System.out.printf("<%%i%d> ", count++);
+                System.out.printf("<%%i%d> ", count);
                 String enter = reader.nextLine();
                 if (enter.equals("/quit")) break;
                 exp = new ExprManager(new StringBuilder(enter));
-                System.out.printf("<%%o%d> %f\n", count++, exp.calculate());
+                System.out.printf("<%%o%d> %f\n", count, exp.calculate());
             }catch (Exception ex){
-                System.out.printf("<%%o%d> \n", count++);
+                System.out.printf("<%%o%d> \n", count);
                 System.out.println(ex.toString());
             }
+            count++;
         }
         System.out.println("GoodBye");
     }
