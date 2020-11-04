@@ -50,7 +50,7 @@ public class ExprManager implements ConstSome {
                     end++;
             }
 
-            stb.insert(end - 1, ')');
+            stb.insert(end, ')');
             stb.insert(0, "(0");
         }
 
