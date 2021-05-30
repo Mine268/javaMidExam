@@ -9,7 +9,7 @@ public class Main {
             This is a calculator developed by Mine268(rkw), supporting only four operators 
             and brackets. The numbers fall in [-9223372036854775808,9223372036854775807].
             Type your expression, press ENTER and the programme will feedback the result 
-            or some info on the errors in the expression if exist. Enter '/quit' to terminal.
+            or some info on the errors in the expression if exist. Enter '/quit' to terminate.
             The programme will be accessible from https://www.github.com/mine268
             Any suggestions are welcomed.
             """;
